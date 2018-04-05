@@ -16,6 +16,9 @@
 		1810B4F62074A7190034717B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810B4F52074A7190034717B /* main.m */; };
 		1810B5002074A71A0034717B /* Reatch_AllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810B4FF2074A71A0034717B /* Reatch_AllTests.m */; };
 		1810B50B2074A71A0034717B /* Reatch_AllUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810B50A2074A71A0034717B /* Reatch_AllUITests.m */; };
+		1810B51A2074A7EB0034717B /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810B5192074A7EA0034717B /* ACFloatingTextField.m */; };
+		18373D652074AAEC00366551 /* Rlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18373D642074AAEB00366551 /* Rlogo.png */; };
+		53FE07F218DBCC3804A5A9B0 /* libPods-Reatch All.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 411F454E0CAC2380E10669D2 /* libPods-Reatch All.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,14 @@
 		1810B5062074A71A0034717B /* Reatch AllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reatch AllUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1810B50A2074A71A0034717B /* Reatch_AllUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reatch_AllUITests.m; sourceTree = "<group>"; };
 		1810B50C2074A71A0034717B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1810B5182074A7EA0034717B /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFloatingTextField.h; sourceTree = "<group>"; };
+		1810B5192074A7EA0034717B /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFloatingTextField.m; sourceTree = "<group>"; };
+		18373D642074AAEB00366551 /* Rlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rlogo.png; sourceTree = "<group>"; };
+		411F454E0CAC2380E10669D2 /* libPods-Reatch All.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reatch All.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4755DE5538B2E131BDE45289 /* libPods-Reatch AllTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reatch AllTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0890102946464F8191D41C /* libPods-Reatch AllUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reatch AllUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538CDD6168FC7C4B8AE72707 /* Pods-Reatch All.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reatch All.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reatch All/Pods-Reatch All.release.xcconfig"; sourceTree = "<group>"; };
+		81210F66436A218D0AE5E1FB /* Pods-Reatch All.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reatch All.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reatch All/Pods-Reatch All.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FE07F218DBCC3804A5A9B0 /* libPods-Reatch All.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +99,8 @@
 				1810B4FE2074A71A0034717B /* Reatch AllTests */,
 				1810B5092074A71A0034717B /* Reatch AllUITests */,
 				1810B4E12074A7190034717B /* Products */,
+				5D6E0F4DC60C82A96596F983 /* Pods */,
+				984BB915BE197333CA6E315A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +120,9 @@
 				1810B4E32074A7190034717B /* AppDelegate.h */,
 				1810B4E42074A7190034717B /* AppDelegate.m */,
 				1810B4E62074A7190034717B /* ViewController.h */,
+				1810B5182074A7EA0034717B /* ACFloatingTextField.h */,
+				18373D642074AAEB00366551 /* Rlogo.png */,
+				1810B5192074A7EA0034717B /* ACFloatingTextField.m */,
 				1810B4E72074A7190034717B /* ViewController.m */,
 				1810B4E92074A7190034717B /* Main.storyboard */,
 				1810B4EF2074A7190034717B /* Assets.xcassets */,
@@ -135,6 +152,25 @@
 			path = "Reatch AllUITests";
 			sourceTree = "<group>";
 		};
+		5D6E0F4DC60C82A96596F983 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81210F66436A218D0AE5E1FB /* Pods-Reatch All.debug.xcconfig */,
+				538CDD6168FC7C4B8AE72707 /* Pods-Reatch All.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		984BB915BE197333CA6E315A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411F454E0CAC2380E10669D2 /* libPods-Reatch All.a */,
+				4755DE5538B2E131BDE45289 /* libPods-Reatch AllTests.a */,
+				4E0890102946464F8191D41C /* libPods-Reatch AllUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1810B50F2074A71A0034717B /* Build configuration list for PBXNativeTarget "Reatch All" */;
 			buildPhases = (
+				EBB55E738EEEEC1B18728752 /* [CP] Check Pods Manifest.lock */,
 				1810B4DC2074A7190034717B /* Sources */,
 				1810B4DD2074A7190034717B /* Frameworks */,
 				1810B4DE2074A7190034717B /* Resources */,
+				EBBAD56E917783A738A64F4A /* [CP] Embed Pods Frameworks */,
+				A28150F38CB9B71006D10471 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +283,7 @@
 				1810B4F32074A7190034717B /* LaunchScreen.storyboard in Resources */,
 				1810B4F02074A7190034717B /* Assets.xcassets in Resources */,
 				1810B4EB2074A7190034717B /* Main.storyboard in Resources */,
+				18373D652074AAEC00366551 /* Rlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +303,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A28150F38CB9B71006D10471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Reatch All/Pods-Reatch All-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reatch All/Pods-Reatch All-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB55E738EEEEC1B18728752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reatch All-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBAD56E917783A738A64F4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reatch All/Pods-Reatch All-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1810B4DC2074A7190034717B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +365,7 @@
 				1810B4EE2074A7190034717B /* Reatch_All.xcdatamodeld in Sources */,
 				1810B4E82074A7190034717B /* ViewController.m in Sources */,
 				1810B4F62074A7190034717B /* main.m in Sources */,
+				1810B51A2074A7EB0034717B /* ACFloatingTextField.m in Sources */,
 				1810B4E52074A7190034717B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +527,7 @@
 		};
 		1810B5102074A71A0034717B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81210F66436A218D0AE5E1FB /* Pods-Reatch All.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +541,7 @@
 		};
 		1810B5112074A71A0034717B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538CDD6168FC7C4B8AE72707 /* Pods-Reatch All.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
